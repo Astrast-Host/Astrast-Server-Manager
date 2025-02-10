@@ -63,7 +63,7 @@ const misc = {
     betaCommands: "898041878447013948",     //General - Beta Commands //soon
     accountLinked: "1329365033490317353",   //Staff - Account Linked
 
-    // Account purge category.
+    // Account purge category h.
     accounts: "1337116806803886134",         //General - Account Creation Channels
 }
 
