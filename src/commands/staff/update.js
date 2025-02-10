@@ -23,7 +23,7 @@ exports.run = async (client, message, args) => {
     if (!message.member.roles.cache.find((r) => r.id === Config.DiscordBot.Roles.BotAdmin)) return;
 
     try {
-        const { stdout } = await execPromise('git pull');
+        const { stdout } = await execPromise('git pull origin main');
             
         if (!stdout.includes("Already up to date.")) {
 
